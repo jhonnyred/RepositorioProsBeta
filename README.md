@@ -23,7 +23,7 @@ O arranjo das pastas é literalmente:
              | __ 📄 Classe.java
 ```
 
-Os trabalhos/atividades com entrega, que não foram pedidos para a aula terão suas próprias pastas e suas estruturas são:
+Os trabalhos/atividades com entrega que não foram pedidos para a aula terão suas próprias pastas e suas estruturas são:
 ```
 📂 Nome da atividade
 | __ 📂 src
