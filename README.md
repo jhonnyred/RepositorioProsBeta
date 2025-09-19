@@ -12,15 +12,11 @@ Estes códigos foram feitos TODOS usando a IDE Visual Studio Code, ou seja, se v
 O arranjo das pastas é literalmente:
 ```
 📂 Aula
- | __ 📂 Anotações
-       | __  📂 src
-       |      | __ 📄 Main.java
-       |      | __ 📄 Classe.java
-       |
-      📂 Atividade
-       | __ 📂 src
-             | __ 📄 Main.java
-             | __ 📄 Classe.java
+ | __ 📂 src
+       | __ 📄 Main.java
+       | __ 📄 Classe.java
+       | __ 📄 Main2.java
+       | __ 📄 Classe2.java
 ```
 
 Os trabalhos/atividades com entrega que não foram pedidos para a aula terão suas próprias pastas e suas estruturas são:
