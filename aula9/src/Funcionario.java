@@ -2,8 +2,8 @@ import java.util.ArrayList;
 
 public class Funcionario{
     // ATRIBUTOS
-    String nome;
-    ArrayList funcList = new Arraylist<Funcionario>();
+    private String nome;
+    private ArrayList<Funcionario> funcList = new ArrayList<Funcionario>();
 
     // CONSTRUTOR
     public Funcionario(String nome){
@@ -11,7 +11,7 @@ public class Funcionario{
     }
 
     // MÉTODOS
-    public void addFuncionario(Funcionario func){
+    public void addSubordinado(Funcionario func){
         funcList.add(func);
     }
 
@@ -20,8 +20,18 @@ public class Funcionario{
     }
 
     public void imprimirSubordinados(){
-        for (Funcionario func : funcList){
+        for(Funcionario func : funcList){
             func.imprimir();
         }
+    }
+
+    // GETTER
+    public String getNome(){
+        return this.nome; 
+    }
+
+    // SETTER
+    public void setNome(String nome){
+        this.nome = nome;
     }
 }
