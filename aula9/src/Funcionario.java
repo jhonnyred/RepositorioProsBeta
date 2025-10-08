@@ -19,5 +19,9 @@ public class Funcionario{
         System.out.println("Nome: " +this.nome);
     }
 
-    public void imprimirSubordinados
+    public void imprimirSubordinados(){
+        for (Funcionario func : funcList){
+            func.imprimir();
+        }
+    }
 }
