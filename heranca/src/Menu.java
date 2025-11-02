@@ -18,7 +18,7 @@ public class Menu{
             System.out.println("\n"+(i+1)+" - "+opcoes[i]);
 
             if((i+1)==opcoes.length){
-                System.out.println("\n"+(i+1)+" - Sair");
+                System.out.println("\n"+(i+2)+" - Sair");
             }
         }
 

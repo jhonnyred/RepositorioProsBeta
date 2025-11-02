@@ -14,8 +14,8 @@ public class Animal {
     // MÉTODOS
     public String imprimir(){
         String msg = "\n## ANIMAL ##"
-                    +"\nNome: " +nome
-                    +"\nIdade: " +idade;
+                    +"\nNome: " +this.nome
+                    +"\nIdade: " +this.idade;
         return msg;
     }
 

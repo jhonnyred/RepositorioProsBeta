@@ -16,7 +16,7 @@ public class Cachorro extends Animal{
         String msg = "\n## Cachorro## "
                     +"\nNome: " +getNome()
                     +"\nIdade: " +getIdade()
-                    +"\nNome: " +velocidade;
+                    +"\nVelocidade: " +this.velocidade;
         return msg;
     }
 

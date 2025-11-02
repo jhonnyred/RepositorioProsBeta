@@ -16,7 +16,7 @@ public class Gato extends Animal{
         String msg = "\n## GATO ##"
                     +"\nNome: " +getNome()
                     +"\nIdade: " +getIdade()
-                    +"\nSalto: " + alturaSalto;
+                    +"\nSalto: " +this.alturaSalto+ "m";
         return msg;
     }
 

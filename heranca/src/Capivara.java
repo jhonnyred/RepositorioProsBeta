@@ -16,8 +16,14 @@ public class Capivara extends Animal{
         String msg = "\n## CAPIVARA ##"
                     +"\nNome: " +getNome()
                     +"\nIdade: " +getIdade()
-                    +"\nPeso: " + peso;
+                    +"\nPeso: " +this.peso+ "Kg";
         return msg;
+    }
+
+    @Override
+    public String falar(){
+        String msg = "Roinc Roinc sou uma capivara";
+        return msg; 
     }
 
     // GETTERS
